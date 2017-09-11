@@ -1,0 +1,15 @@
+# 貝氏定理
+事件A在事件B（發生）的條件下的機率，與事件B在事件A（發生）的條件下的機率是不一樣的；
+然而，這兩者是有確定的關係的，貝氏定理就是這種關係的陳述。
+貝氏公式的一個用途在於通過已知的三個機率函數推出第四個。
+
+## 
+
+P(E|F) =  P(E,F)/P(F) = p(F|E)P(E)/P(F)
+
+P(F) = P(F,E) + P(F, ~E)
+
+P(E|F) = P(E|F)P(E)/[P(F, E) + P(F, ~E)] = P(E|F)P(E)/[P(F|E)P(E) + P(F|~E)P(E)]
+
+# Reference
+1. [Bayes](https://zh.wikipedia.org/wiki/%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%AE%9A%E7%90%86) 
